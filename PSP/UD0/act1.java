@@ -1,8 +1,12 @@
-package PSP.UD0;
-
 public class act1 {
     public static void main(String[] args) {
-        System.out.println("Actividad 1 - PSP UD0");
+        double precio = 20;
+        int cantidad = 10;
+        double descuento = 0.10;
+
+        double valorTotal = (precio * cantidad) - ((precio * cantidad) * descuento);
+
+        System.out.println(valorTotal);
 
     }
 }
