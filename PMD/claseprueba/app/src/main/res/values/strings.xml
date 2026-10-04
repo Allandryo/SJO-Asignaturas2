@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Puebasclase</string>
-    <string name="Button">¡Haz clic aqui!</string>
+    <string name="button">¡Haz clic aqui!</string>
+    <string name="clickedButton">¡Muy bien has hecho clic!"</string>
     <string name="descripcionImagen">Imagen </string>
     <string name="name">Allandryo</string>
+    <string name="bienvenido">Bienvenido de nuevo</string>
 </resources>

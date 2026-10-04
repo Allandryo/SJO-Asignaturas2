@@ -1,11 +1,11 @@
 package repaso7_14;
 
-class Tarea {
+class TareaList {
     String titulo;
     String descripcion;
     boolean completado;
 
-    public Tarea(String titulo, String descripcion) {
+    public TareaList(String titulo, String descripcion) {
         this.titulo = titulo;
         this.descripcion = descripcion;
         this.completado = false;
@@ -47,8 +47,8 @@ class Tarea {
 
 public class Actividad7 {
     public static void main(String[] args) {
-        Tarea t1 = new Tarea("correr", "salir a correr");
-        Tarea t2 = new Tarea("Deberes", "Hacer los deberes");
+        TareaList t1 = new TareaList("correr", "salir a correr");
+        TareaList t2 = new TareaList("Deberes", "Hacer los deberes");
 
         t1.MostrarInfo();
         t2.MostrarInfo();
