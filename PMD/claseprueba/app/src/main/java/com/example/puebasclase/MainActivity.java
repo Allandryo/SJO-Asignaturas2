@@ -27,20 +27,24 @@ public class MainActivity extends AppCompatActivity {
             Button button1 = findViewById(R.id.button1);
             TextView nombre = findViewById(R.id.nombre);
             ImageView imagenAndroid = findViewById(R.id.imagenAndroid);
+            var fondo = findViewById(R.id.main);
 
-            button1.setOnClickListener(v1 -> {
+            button1.setOnClickListener(e -> {
                 if (mod){
                     button1.setText(R.string.button);
-                    button1.setBackgroundResource(R.color.white);
+                    button1.setBackgroundColor(getResources().getColor(R.color.blue));
+                    imagenAndroid.setImageResource(R.drawable.emojibase);
+                    fondo.setBackgroundResource(R.color.black);
                     nombre.setText(R.string.name);
                     mod = false;
                 } else {
                     button1.setText(R.string.clickedButton);
-                    button1.setBackgroundResource(R.color.black);
+                    button1.setBackgroundColor(getResources().getColor(R.color.black));
+                    imagenAndroid.setImageResource(R.drawable.emojiguinando);
+                    fondo.setBackgroundResource(R.color.blue);
                     nombre.setText(R.string.bienvenido);
                     mod = true;
                 }
-
             });
             return insets;
         });
