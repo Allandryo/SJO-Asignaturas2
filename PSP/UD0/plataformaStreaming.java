@@ -13,7 +13,7 @@ class Contenido {
 
     public void reproducir() {
         System.out.println(
-                "Se ha iniciado la reproduccion de " + titulo + "con una duracion de " + duracionMinutos + "min.");
+                "Reproduciendo: " + titulo + " | Duracion: " + duracionMinutos + " min.");
     }
 }
 
@@ -28,7 +28,7 @@ class Pelicula extends Contenido {
     @Override
     public void reproducir() {
         System.out.println(
-                "Titulo: " + titulo + " | Director: " + director + " | Duracion: " + duracionMinutos);
+                "Titulo: " + titulo + " | Director: " + director + " | Duracion: " + duracionMinutos + " min.");
     }
 }
 
@@ -49,9 +49,9 @@ class Serie extends Contenido {
     }
 }
 
-public class Act8 {
+public class plataformaStreaming {
     public static void main(String[] args) {
-        final int Cuota_Mensual_Base;
+        final Double Cuota_Mensual_Base = 20.99;
 
         ArrayList<Contenido> Catalogo = new ArrayList<>();
 
@@ -64,5 +64,9 @@ public class Act8 {
         for (int i = 0; i < Catalogo.size(); i++) {
             Catalogo.get(i).reproducir();
         }
+
+        Usuario u1 = new Usuario("Alan", 2);
+        u1.verPerfil();
+        u1.calculoGastado(Cuota_Mensual_Base);
     }
 }
