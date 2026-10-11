@@ -1,0 +1,9 @@
+# =====================================================================
+# Configuración Override para Desarrollo Local (Cargado automáticamente)
+# =====================================================================
+services:
+  web:
+    # Activa recarga en caliente de código Python, XML y plantillas en vivo
+    command: odoo --dev=all
+    environment:
+      - PYTHONUNBUFFERED=1

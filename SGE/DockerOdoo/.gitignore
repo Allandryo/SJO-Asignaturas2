@@ -1,0 +1,26 @@
+# Archivos de entorno y credenciales sensibles
+.env
+*.env.local
+secrets/
+
+# Datos persistentes, dinámicos y volátiles (NO versionar)
+filestore/
+sessions/
+db-data/
+web-data/
+
+# Archivos temporales y de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Directorios de IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
