@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">saltoActivitys</string>
+
+    <string name="nombre_formulario">Formulario</string>
+
+
+    <string name="nombre_form">Introduce tu nombre:</string>
+    <string name="edad_form">Introduce tu edad:</string>
+    <string name="ciudad_form">Introduce tu ciudad:</string>
+
+    <string name="placehold_nombre">Nombre</string>
+    <string name="placehold_edad">Edad</string>
+    <string name="placehold_ciudad">Ciudad</string>
+
+    <string name="button_login">Log in</string>
+    <string name="button_logout">Log out</string>
+
+</resources>
