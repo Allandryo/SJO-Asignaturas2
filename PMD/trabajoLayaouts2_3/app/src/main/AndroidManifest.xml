@@ -12,13 +12,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrabajoLayaouts2_3">
         <activity
-            android:name=".MainActivity"
+            android:name=".constraintLayout"
+            android:exported="false" />
+        <activity
+            android:name=".tableLayout"
+            android:exported="false" />
+        <activity
+            android:name=".linearLayout"
+            android:exported="false" />
+        <activity
+            android:name=".frameLayout"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+
         </activity>
     </application>
 

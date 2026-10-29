@@ -28,10 +28,23 @@ public class ActivityLogin extends AppCompatActivity {
         String nombre = info_formulario.getStringExtra("nombre");
         String edad = info_formulario.getStringExtra("edad");
         String ciudad = info_formulario.getStringExtra("ciudad");
+        String genero = info_formulario.getStringExtra("genero");
+        String notificaciones = info_formulario.getStringExtra("notificaciones");
+        String terminos_condiciones = info_formulario.getStringExtra("terminos_condiciones");
 
-        TextView texto_bienvenida = findViewById(R.id.texto_bienvenida);
+        TextView txtNombre = findViewById(R.id.texto_nombre);
+        TextView txtEdad = findViewById(R.id.texto_edad);
+        TextView txtCiudad = findViewById(R.id.texto_ciudad);
+        TextView txtGenero = findViewById(R.id.texto_genero);
+        TextView txtNotificaciones = findViewById(R.id.texto_notificaciones);
+        TextView txtTC = findViewById(R.id.texto_tc);
 
-        texto_bienvenida.setText("Bienvenido " + nombre + ", Tienes " + edad + " años y vives en " + ciudad +".");
+        txtNombre.append(nombre);
+        txtEdad.append(edad);
+        txtCiudad.append(ciudad);
+        txtGenero.append(genero);
+        txtNotificaciones.append(notificaciones);
+        txtTC.append(terminos_condiciones);
 
         Button button_logout = findViewById(R.id.button_logout);
 

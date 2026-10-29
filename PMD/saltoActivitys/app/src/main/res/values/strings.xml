@@ -10,9 +10,38 @@
 
     <string name="placehold_nombre">Nombre</string>
     <string name="placehold_edad">Edad</string>
-    <string name="placehold_ciudad">Ciudad</string>
+
+    <string name="texto_genero">Genero</string>
+    <string name="texto_genero_hombre">Hombre</string>
+    <string name="texto_genero_mujer">Mujer</string>
+    <string name="texto_genero_otro">Doble elefante telepata de guerra</string>
+
+    <string name="texto_tc">Acepto los terminos y condiciones</string>
+
+    <string name="texto_notificaciones">Activar notificaciones</string>
 
     <string name="button_login">Log in</string>
     <string name="button_logout">Log out</string>
+
+    <string-array name="lista_ciudades">
+        <item>Madrid</item>
+        <item>Barcelona</item>
+        <item>Valencia</item>
+        <item>Sevilla</item>
+        <item>Zaragoza</item>
+        <item>Málaga</item>
+        <item>Murcia</item>
+        <item>Palma</item>
+        <item>Alicante</item>
+        <item>Bilbao</item>
+    </string-array>
+
+
+    <string name="datosNombre">Nombre: </string>
+    <string name="datosEdad">Edad: </string>
+    <string name="datosCiudad">Ciudad: </string>
+    <string name="datosGenero">Genero: </string>
+    <string name="datosNotificaciones">Notificaciones: </string>
+    <string name="datosTc">Términos y condiciones: </string>
 
 </resources>

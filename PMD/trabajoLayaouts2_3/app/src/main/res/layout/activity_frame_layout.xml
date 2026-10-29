@@ -7,4 +7,30 @@
     android:layout_height="match_parent"
     tools:context=".frameLayout">
 
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tituloTextoFrame"
+            android:textColor="@color/red"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonLinear"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="@color/black"
+            android:text="@string/textoAlLinear" />
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

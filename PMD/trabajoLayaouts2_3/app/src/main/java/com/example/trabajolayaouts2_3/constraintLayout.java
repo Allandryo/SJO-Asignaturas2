@@ -1,6 +1,8 @@
 package com.example.trabajolayaouts2_3;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,14 @@ public class constraintLayout extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        Button botonLinear = findViewById(R.id.buttonLinear);
+        Intent pantallaLinear = new Intent(constraintLayout.this, linearLayout.class);
+
+        botonLinear.setOnClickListener(v -> {
+            startActivity(pantallaLinear);
+        });
+
+
     }
 }

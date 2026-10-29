@@ -1,6 +1,8 @@
 package com.example.trabajolayaouts2_3;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,16 @@ public class linearLayout extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        Button botonFrame = findViewById(R.id.buttonFrame);
+        Button botonTable = findViewById(R.id.buttonTable);
+        Button botonConstraint = findViewById(R.id.buttonConstraint);
+
+        Intent pantallaFrame = new Intent(linearLayout.this, frameLayout.class);
+        Intent pantallaTable = new Intent(linearLayout.this, tableLayout.class);
+        Intent pantallaConstraint = new Intent(linearLayout.this, constraintLayout.class);
+
+        botonFrame.setOnClickListener(v -> startActivity(pantallaFrame));
+        botonTable.setOnClickListener(v -> startActivity(pantallaTable));
+        botonConstraint.setOnClickListener(v -> startActivity(pantallaConstraint));
     }
 }

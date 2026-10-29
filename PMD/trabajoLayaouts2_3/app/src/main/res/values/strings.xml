@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">trabajoLayaouts2_3</string>
+
+    <string name="textoAlFrame">Al Frame Layout</string>
+    <string name="textoAlLinear">Al linear Layout</string>
+    <string name="textoAlTable">Al Table Layout</string>
+    <string name="textoAlConstraint">Al Constraint Layout</string>
+
+    <string name="tituloTextoFrame">Primera activity: Frame Layout</string>
+    <string name="tituloTextoLinear">Segunda activity: Linear Layout</string>
+    <string name="tituloTextoTable">Tercera activity: Table Layout</string>
+    <string name="tituloTextoConstraint">Cuarta activity: Constraint Layout</string>
+
+    <string name="boton1">Boton 1</string>
+    <string name="boton2">Boton 2</string>
+    <string name="boton3">Boton 3</string>
+    <string name="boton4">Boton 4</string>
+    <string name="boton5">Boton 5</string>
+
 </resources>

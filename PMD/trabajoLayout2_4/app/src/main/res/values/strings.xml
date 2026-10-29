@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">trabajoLayout2_4</string>
+
+    <string name="tituloFormulario">Registro de Usuario</string>
+    <string name="pieFormulario">© 2025 MiApp de Registro</string>
+
+    <string name="placeholdNombre">Nombre de usuario:</string>
+    <string name="placeholdCorreo">Correo electrónico:</string>
+    <string name="placeholdContraseña">Contraseña:</string>
+    <string name="placeholdConfirmarContraseña">Confirmar contraseña:</string>
+
+    <string name="sexo">Sexo:</string>
+    <string name="opcionHombre">Hombre</string>
+    <string name="opcionMujer">Mujer</string>
+
+    <string name="terminosCondiciones">Acepto los terminos y condiciones.</string>
+
+    <string name="botonRegistro">Registrarse</string>
+    <string name="BotonModoOscuro">Modo Oscuro/Claro</string>
+
 </resources>
