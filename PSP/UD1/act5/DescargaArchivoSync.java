@@ -1,3 +1,4 @@
+// Clase que representa una descarga (cada hilo es una descarga)
 public class DescargaArchivoSync extends Thread {
     private final int id;
     private final ServicioDescargasSync servicio;

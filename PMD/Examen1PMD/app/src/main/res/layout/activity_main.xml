@@ -7,13 +7,99 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:text="@string/tituloFormulario"
+            android:textSize="26sp" />
+
+        <EditText
+            android:id="@+id/nombreFormulario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/nombreFormulario"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/apellidoFormulario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/apellidoFormulario"
+            android:paddingTop="20dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edadFormulario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/edadFormulario"
+            android:paddingTop="20dp"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="@string/sexoFormulario"
+            android:textAlignment="center"
+            android:textSize="26sp" />
+
+        <RadioGroup
+            android:id="@+id/sexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/sexoM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/masculinoFormulario"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/sexoF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/femeninoFormulario"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/TyC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TyCFormulario"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enviarFormulario"
+            android:textSize="20sp" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

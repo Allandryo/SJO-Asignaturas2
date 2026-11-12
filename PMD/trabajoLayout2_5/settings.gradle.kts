@@ -23,3 +23,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "trabajoLayout2_5"
+include(":app")

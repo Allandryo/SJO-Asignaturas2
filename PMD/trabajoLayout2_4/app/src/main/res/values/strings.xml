@@ -16,6 +16,22 @@
     <string name="terminosCondiciones">Acepto los terminos y condiciones.</string>
 
     <string name="botonRegistro">Registrarse</string>
-    <string name="BotonModoOscuro">Modo Oscuro/Claro</string>
+    <string name="BotonModoOscuro">Modo Oscuro</string>
+
+    <string name="tituloResumen">Resumen de Registro</string>
+    <string name="resumenNombre">Nombre de usuario: %1$s</string>
+    <string name="resumenEmail">Correo electrónico: %1$s</string>
+    <string name="resumenSexo">Sexo: %1$s</string>
+    <string name="botonVolver">Volver</string>
+
+    <string name="usuarioVacio">El nombre de usuario no puede estar vacío</string>
+    <string name="correoVacio">El correo electrónico no puede estar vacío</string>
+    <string name="contraVacia">La contraseña no puede estar vacía</string>
+    <string name="confirmarVacia">Debes confirmar la contraseña</string>
+    <string name="correoInvalido">El correo electrónico debe tener un formato válido (contener un \'@\')</string>
+    <string name="contraCorta">La contraseña debe tener al menos 7 caracteres</string>
+    <string name="contraNoCoincide">Las contraseñas no coinciden</string>
+    <string name="sexoNoSeleccionado">Debes seleccionar un sexo</string>
+    <string name="terminosNoAceptados">Debes aceptar los términos y condiciones</string>
 
 </resources>

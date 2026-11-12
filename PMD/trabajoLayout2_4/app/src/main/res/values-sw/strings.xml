@@ -1,3 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">trabajoLayout2_4</string>
+
+    <string name="tituloFormulario">Usajili wa Mtumiaji</string>
+    <string name="pieFormulario">© 2025 MiApp ya Usajili</string>
+
+    <string name="placeholdNombre">Jina la mtumiaji:</string>
+    <string name="placeholdCorreo">Barua pepe:</string>
+    <string name="placeholdContraseña">Nenosiri:</string>
+    <string name="placeholdConfirmarContraseña">Thibitisha nenosiri:</string>
+
+    <string name="sexo">Jinsia:</string>
+    <string name="opcionHombre">Mwanaume</string>
+    <string name="opcionMujer">Mwanamke</string>
+
+    <string name="terminosCondiciones">Nakubali sheria na masharti.</string>
+
+    <string name="botonRegistro">Jisajili</string>
+    <string name="BotonModoOscuro">Hali ya Giza</string>
+
+    <string name="tituloResumen">Muhtasari wa Usajili</string>
+    <string name="resumenNombre">Jina la mtumiaji: %1$s</string>
+    <string name="resumenEmail">Barua pepe: %1$s</string>
+    <string name="resumenSexo">Jinsia: %1$s</string>
+    <string name="botonVolver">Rudi</string>
+
+    <string name="usuarioVacio">Jina la mtumiaji haliwezi kuwa tupu</string>
+    <string name="correoVacio">Barua pepe haiwezi kuwa tupu</string>
+    <string name="contraVacia">Nenosiri haliwezi kuwa tupu</string>
+    <string name="confirmarVacia">Lazima uthibitishe nenosiri</string>
+    <string name="correoInvalido">Barua pepe lazima iwe na muundo halali (iwe na \'@\')</string>
+    <string name="contraCorta">Nenosiri lazima liwe na angalau herufi 7</string>
+    <string name="contraNoCoincide">Manenosiri hayalingani</string>
+    <string name="sexoNoSeleccionado">Lazima uchague jinsia</string>
+    <string name="terminosNoAceptados">Lazima ukubali sheria na masharti</string>
 </resources>

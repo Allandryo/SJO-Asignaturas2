@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Examen1PMD</string>
+
+    <string name="tituloFormulario">Formulario de Inscripcion</string>
+    <string name="nombreFormulario">Nombre:</string>
+    <string name="apellidoFormulario">Apellidos:</string>
+    <string name="edadFormulario">Edad:</string>
+    <string name="sexoFormulario">Sexo:</string>
+    <string name="masculinoFormulario">Masculino:</string>
+    <string name="femeninoFormulario">Femenino:</string>
+    <string name="TyCFormulario">Acepto terminos y condiciones:</string>
+    <string name="enviarFormulario">Enviar</string>
+    <string name="volverFormulario">Volver</string>
+
+    <string name="mensajeExito">¡¡¡Formulario enviado con exito!!!</string>
+
+    <string name="nombreVacio">El nombre no puede estar vacio.</string>
+    <string name="apellidoVacio">El apellido no puede estar vacio.</string>
+    <string name="edadVacio">La edad no puede estar vacia.</string>
+    <string name="edadMenor">Tiene que tener 16+ para registrarse.</string>
+    <string name="TyCVacio">Debe aceptar los terminos y condiciones.</string>
+
+    <string name="TituloResumen">Datos personales:</string>
+    <string name="nombre">Nombre: %1$s</string>
+    <string name="apellido">Apellidos: %1$s</string>
+    <string name="edad">Edad: %1$s</string>
+    <string name="sexo">Sexo: %1$s</string>
 </resources>

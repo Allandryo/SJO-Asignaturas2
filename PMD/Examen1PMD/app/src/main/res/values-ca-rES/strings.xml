@@ -1,3 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Examen1PMD</string>
+
+    <string name="tituloFormulario">Formulari dinscripcio</string>
+    <string name="nombreFormulario">sdasfa:</string>
+    <string name="apellidoFormulario">Casfasf:</string>
+    <string name="edadFormulario">Easfsf:</string>
+    <string name="sexoFormulario">Sesfsa:</string>
+    <string name="masculinoFormulario">sdasdasdasd:</string>
+    <string name="femeninoFormulario">Fdaassdasd:</string>
+    <string name="TyCFormulario">sdasdas dsa dsasdadsa dasdadsa:</string>
+    <string name="enviarFormulario">dasda</string>
+    <string name="volverFormulario">resgs</string>
+
+    <string name="mensajeExito">¿dafasdafwfawfadfas a wafsfasfas!</string>
+
+    <string name="nombreVacio">saddads adsada sdasda sda sd</string>
+    <string name="apellidoVacio">feafea rgsggd jydftd d d</string>
+    <string name="edadVacio">La  afedf wg sae esegseg gds</string>
+    <string name="edadMenor"> esfsfsdf sdfs fsd fsd ffsfsdf </string>
+    <string name="TyCVacio">dfsdfs fsdfsdfsdf sdf hrt hdg hd</string>
+
+    <string name="TituloResumen">ads asf aghsg sdg </string>
+    <string name="nombre">afsa sfa: %1$s</string>
+    <string name="apellido">affsfaffg: %1$s</string>
+    <string name="edad">fdgsd: %1$s</string>
+    <string name="sexo">jghj: %1$s</string>
 </resources>

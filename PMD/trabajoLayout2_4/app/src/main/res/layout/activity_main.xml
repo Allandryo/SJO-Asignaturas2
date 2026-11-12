@@ -19,6 +19,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:id="@+id/tituloFormulario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -30,6 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:autofillHints=""
+            android:backgroundTint="@color/cian"
             android:hint="@string/placeholdNombre"
             android:inputType="textPersonName" />
 
@@ -38,6 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:autofillHints=""
+            android:backgroundTint="@color/cian"
             android:hint="@string/placeholdCorreo"
             android:inputType="textEmailAddress" />
 
@@ -46,18 +49,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:autofillHints=""
+            android:backgroundTint="@color/cian"
             android:hint="@string/placeholdContraseña"
             android:inputType="textPassword" />
 
         <EditText
             android:id="@+id/inputConfirmarContraseña"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:autofillHints=""
+            android:backgroundTint="@color/cian"
             android:hint="@string/placeholdConfirmarContraseña"
             android:inputType="textPassword" />
 
         <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/labelSexo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -99,17 +107,22 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/botonRegistro" />
+                android:backgroundTint="#00FFB6"
+                android:text="@string/botonRegistro"
+                android:textColor="#000000" />
+
             <Button
                 android:id="@+id/botonModoOscuro"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="@color/black"
                 android:text="@string/BotonModoOscuro" />
 
         </LinearLayout>
 
         <TextView
+            android:id="@+id/pieFormulario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"

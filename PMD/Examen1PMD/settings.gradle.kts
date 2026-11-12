@@ -23,3 +23,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Examen1PMD"
+include(":app")
+ 

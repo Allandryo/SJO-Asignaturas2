@@ -46,16 +46,15 @@ public class ServicioDescargasSync {
     }
 
     // Método sincronizado: lo llaman los hilos cuando terminan public synchronized
-    // void descargaCompletada() {
-    descargasActivas--;if(indice>=solicitudes.length&&descargasActivas==0)
-
-    {
-        detener();
-    }
+    public void descargaCompletada() {
+        descargasActivas--;
+        if (indice >= solicitudes.length && descargasActivas == 0) {
+            detener();
+        }
     }
 
     // Detiene el servicio
     public void detener() {
-    activo = false;
+        activo = false;
     }
 }
